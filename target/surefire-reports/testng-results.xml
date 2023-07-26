@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T16:02:29 IST" name="Parallel Execution" finished-at="2023-07-25T16:03:17 IST" duration-ms="47600">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T16:02:29 IST" name="ChromeTest" finished-at="2023-07-25T16:03:05 IST" duration-ms="35988">
+      <class name="sel2.CrossBr">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sel2.CrossBr@7e07db1f]" started-at="2023-07-25T16:02:29 IST" name="setup" finished-at="2023-07-25T16:02:39 IST" duration-ms="10178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:sel2.CrossBr@7e07db1f]" started-at="2023-07-25T16:02:39 IST" name="petStoreTC1" finished-at="2023-07-25T16:03:05 IST" duration-ms="25746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- sel2.CrossBr -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-07-25T16:02:29 IST" name="edgeTest" finished-at="2023-07-25T16:03:06 IST" duration-ms="36644">
+      <class name="sel2.CrossBr">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sel2.CrossBr@36bc55de]" started-at="2023-07-25T16:02:29 IST" name="setup" finished-at="2023-07-25T16:02:39 IST" duration-ms="9854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:sel2.CrossBr@36bc55de]" started-at="2023-07-25T16:02:39 IST" name="petStoreTC1" finished-at="2023-07-25T16:03:06 IST" duration-ms="26459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- sel2.CrossBr -->
+    </test> <!-- edgeTest -->
+    <test started-at="2023-07-25T16:02:29 IST" name="FirefoxTest" finished-at="2023-07-25T16:03:17 IST" duration-ms="47596">
+      <class name="sel2.CrossBr">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:sel2.CrossBr@71809907]" started-at="2023-07-25T16:02:29 IST" name="setup" finished-at="2023-07-25T16:02:54 IST" duration-ms="24730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="petStoreTC1()[pri:0, instance:sel2.CrossBr@71809907]" started-at="2023-07-25T16:02:54 IST" name="petStoreTC1" finished-at="2023-07-25T16:03:17 IST" duration-ms="22833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- petStoreTC1 -->
+      </class> <!-- sel2.CrossBr -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Parallel Execution -->
+</testng-results>
