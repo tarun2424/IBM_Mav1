@@ -43,7 +43,6 @@ public class CrossBr {
 		Thread.sleep(3000);
 		//driver.findElement(By.name("username")).sendKeys("j2ee");
 		driver.findElement(By.cssSelector("[id*=ripe]")).sendKeys("j2ee");
-	//	driver.findElement(By.xpath("//input[contains(@id,'ripes')]")).sendKeys("j2ee");
 		Thread.sleep(3000);
 		driver.findElement(By.name("password")).clear();
 		Thread.sleep(3000);
